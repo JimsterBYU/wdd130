@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    --primary-color: #1c77c3;
+    --secondary-color: #39A9DB;
+    --accent1-color: #6ac3d6;
+    --accent2-color: #f39237;
+
+    --heading-font: "_______", serif;
+    --paragraph-font: "_______", serif;
+
+    --nav-background-color: #1c77c3;
+    --nav-link-color: #39A9DB;
+    --nav-hover-link-color: #f39237;
+    --nav-hover-background-color: #6ac3d6;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(250, 62, 5);
+}
+header{
+    padding: 20px;
+    background-color: #1c77c3;
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: aquamarine;
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: #f39237;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color: #1c77c3;
+}
+nav a:hover {
+    color: #39A9DB;
+    background-color: #6ac3d6;
+}
