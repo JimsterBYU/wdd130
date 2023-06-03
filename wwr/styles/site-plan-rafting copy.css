@@ -177,6 +177,7 @@ body{
 }
 .service p{
     font-size: 16px;
+    font-style: italic;
     color: #434864;
     margin-bottom: 15px;
 }
