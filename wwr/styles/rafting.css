@@ -97,7 +97,6 @@ section h2{
 .container2{
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 20% 20% 20%;
     align-items: center;
     border-bottom: 1px solid #ccc;
  
